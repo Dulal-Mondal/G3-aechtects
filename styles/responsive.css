@@ -15,4 +15,47 @@
     .hero-section-content h1 {
         font-size: 30px;
     }
+
+    .features-section {
+        flex-direction: column-reverse;
+        margin: 40px;
+        gap: 30px;
+
+    }
+
+    .features-section-image {
+        display: grid;
+        gap: 15px;
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .lovely-features-section {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px 200px;
+        gap: 40px;
+        position: relative;
+
+    }
+
+    .lovely-features-section {
+        flex-direction: column;
+        margin: 20px;
+        gap: 40px;
+        position: relative;
+
+    }
+
+    .content-section-title h2 {
+        border-left: 3px solid rgba(255, 144, 14, 1.00);
+        padding: 5px 50px 5px 5px;
+        font-size: 32px;
+        font-weight: bold;
+
+    }
+
+    .features-card {
+        margin-right: 0px;
+    }
+
 }
