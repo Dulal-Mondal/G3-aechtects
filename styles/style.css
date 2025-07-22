@@ -4,4 +4,87 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    color: white;
+    background-color: rgba(255, 144, 14, 1.00);
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: none;
+    border: 1px solid tomato;
+    color: blue;
+}
+
+.header-section {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 20px 200px;
+    text-align: center;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hambarger {
+    display: none;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+
+.nav-menu ul li {
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1.00);
+}
+
+ul li a:hover {
+    color: tomato;
+}
+
+
+
+.hero-section-content {
+    padding: 30px 100px;
+}
+
+.hero-section-content h1 {
+    font-size: 44px;
+    font-weight: bold;
+
+}
+
+.hero-section-content p {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(114, 114, 114, 1.00);
+    padding: 10px 0;
+}
+
+.hero-section img {
+    border-radius: 10px;
 }

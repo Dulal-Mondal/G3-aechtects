@@ -1,0 +1,18 @@
+@media screen and (max-width:576px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .header-section {
+        padding: 25px;
+    }
+
+
+    .hero-section-content {
+        padding: 30px 10px;
+    }
+
+    .hero-section-content h1 {
+        font-size: 30px;
+    }
+}
