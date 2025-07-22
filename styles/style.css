@@ -176,3 +176,77 @@ ul li a:hover {
     right: 195px;
     border-radius: 4px;
 }
+
+
+.section-title p {
+    font-size: 14px;
+    padding: 10px 350px 30px 0px;
+    color: rgba(114, 114, 114, 1.00);
+}
+
+.card img {
+    width: 30px;
+    height: 30px;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid rgba(255, 144, 14, 1.00);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card:hover {
+    scale: 1.1;
+}
+
+
+.some-facts {
+    margin: 30px 200px;
+}
+
+.section-cards {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsors-section {
+    margin: 40px 200px;
+
+}
+
+.sponsors-section-title {
+    text-align: center;
+}
+
+.sponsors-section-title p {
+    color: rgba(114, 114, 114, 1.00);
+    font-size: 14px;
+    padding: 20px 150px;
+}
+
+.sponsors-section-socal-media {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.socal-media img {
+    max-width: 100px;
+}
+
+footer {
+    background-color: rgba(255, 244, 231, 1.00);
+    margin: 40px 200px;
+}
+
+footer h4 {
+    color: rgba(114, 114, 114, 1.00);
+    font-size: 12 px;
+    text-align: center;
+    padding: 10px;
+}
